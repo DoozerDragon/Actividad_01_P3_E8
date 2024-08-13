@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Funciones de Arreglos</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Funciones de Arreglos</h1>
+
+        <!-- Input para añadir elementos al arreglo -->
+        <input type="text" id="nuevoElemento" placeholder="Ingrese un nuevo elemento para el arreglo">
+
+        <div class="buttons-container">
+            <button onclick="pushElemento()">Push</button>
+            <button onclick="popElemento()">Pop</button>
+            <button onclick="unshiftElemento()">Unshift</button>
+            <button onclick="shiftElemento()">Shift</button>
+            <button onclick="spliceElemento()">Splice</button>
+            <button onclick="deleteElemento()">Delete</button>
+            <button onclick="reverseArreglo()">Reverse</button>
+            <button onclick="sortArreglo()">Sort</button>
+            <button onclick="concatArreglo()">Concat</button>
+            <button onclick="joinArreglo()">Join</button>
+            <button onclick="longitudArreglo()">Length</button>
+        </div>
+
+        <!-- Resultado -->
+        <div id="resultado" class="resultado">Arreglo: []</div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
